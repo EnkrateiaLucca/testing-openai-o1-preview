@@ -13,11 +13,6 @@ This project implements some simple testing of the new [o1-preview model from th
   - [Features](#features)
   - [Dependencies](#dependencies)
   - [Configuration](#configuration)
-  - [Examples](#examples)
-    - [Text Summarization](#text-summarization)
-    - [Question Answering](#question-answering)
-    - [Structured Output Generation](#structured-output-generation)
-  - [License](#license)
 
 ## Installation
 
@@ -69,51 +64,3 @@ For a complete list of dependencies, refer to the `requirements.txt` file.
 ## Configuration
 
 The project uses the OpenAI API. Make sure to set your API key as an environment variable:
-
-
-```1:11:o1-preview-tests.ipynb
-in[0]: import os
-
-os.environ['OPENAI_API_KEY'] = 'your api key'
-
-in[1]: # QuickStart with the OpenAI API
-
-in[2]: from openai import OpenAI
-
-client = OpenAI()
-
-in[3]: prompt = "Tell me what is the most complex and interesting problem that you know."
-```
-
-
-## Examples
-
-### Text Summarization
-
-
-```203:217:o1-preview-tests.ipynb
-    print("***********")
-```
-
-
-### Question Answering
-
-
-```623:627:o1-preview-tests.ipynb
-    print("***********")
-```
-
-
-### Structured Output Generation
-
-
-```636:662:o1-preview-tests.ipynb
-    print("***********")
-```
-
-
-For more detailed examples and usage, refer to the `o1-preview-tests.ipynb` notebook in the repository.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
